@@ -37,5 +37,7 @@
 - **Reconstruction Quality**: Visual comparison of original vs. reconstructed images from the test set.
 
 ## Additional Notes
-- **Documentation**: Comments within the notebook explain each step and function.
+- **Results**: The results of the trained model for random test samples are demonstrated below.
+- ![image](https://github.com/AliAmini93/Image-Reconstruction-AE/assets/96921261/4959095f-1066-4b20-8465-7cc3b1e23cb0)
+
 - **Performance Metrics**: Quantitative loss during training and qualitative image reconstruction assessment.
