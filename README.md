@@ -69,7 +69,8 @@ This task involves the unique challenge of reconstructing two distinct images fr
   ![image](https://github.com/AliAmini93/Image-Reconstruction-AE/assets/96921261/db5d8ac0-1a88-4bf9-8c2c-b8a086a7653c)
   ![image](https://github.com/AliAmini93/Image-Reconstruction-AE/assets/96921261/a0da88ea-fedc-4099-a5f3-bcf03878b4f8)
   ![image](https://github.com/AliAmini93/Image-Reconstruction-AE/assets/96921261/baea9b47-2cfd-4b6c-b4bb-7ee4feec99e1)
-  ![Uploading image.png…]()
+  ![image](https://github.com/AliAmini93/Image-Reconstruction-AE/assets/96921261/5e04f22d-3ad1-4345-86f7-42dcb219d1b4)
+
   
 
 
