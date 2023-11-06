@@ -1,6 +1,7 @@
 # Image Reconstruction Using AutoEncoders(AEs)
 ## Task 1: Autoencoder for TinyImageNet Dataset
-
+### Description
+A four-layer autoencoder was developed for the TinyImageNet dataset to process 600x600 color images. This Jupyter Notebook (Task_1.ipynb) underwent preprocessing, including class selection, resizing, and normalization. The model was trained for 10 epochs with the Adam optimizer, using mean squared error for loss evaluation. The model's effectiveness was validated by the loss metrics and visual comparison of original and reconstructed test images, demonstrating its capability in image reconstruction and feature extraction.
 ### Dataset Preparation
 
 #### Selection of Classes
@@ -34,7 +35,7 @@
 
 ### Performance Evaluation
 - **Loss Visualization**: Plots of training and validation loss.
--   ![image](https://github.com/AliAmini93/Image-Reconstruction-AE/assets/96921261/8e748cae-cc9c-4bfa-a9eb-df369d8f13b0)
+    ![image](https://github.com/AliAmini93/Image-Reconstruction-AE/assets/96921261/8e748cae-cc9c-4bfa-a9eb-df369d8f13b0)
 
 - **Reconstruction Quality**: Visual comparison of original vs. reconstructed images from the test set.
    ![image](https://github.com/AliAmini93/Image-Reconstruction-AE/assets/96921261/4959095f-1066-4b20-8465-7cc3b1e23cb0)
