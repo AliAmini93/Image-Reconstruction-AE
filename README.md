@@ -39,3 +39,41 @@ A four-layer autoencoder was developed for the TinyImageNet dataset to process 6
 
 - **Reconstruction Quality**: Visual comparison of original vs. reconstructed images from the test set.
    ![image](https://github.com/AliAmini93/Image-Reconstruction-AE/assets/96921261/4959095f-1066-4b20-8465-7cc3b1e23cb0)
+
+## Task 2: CIFAR-10 Image Pair Reconstruction from Averages Using Parallel Autoencoders
+### Description
+This task involves the unique challenge of reconstructing two distinct images from their average. A parallel autoencoder architecture was implemented to independently train for each output image. The model was trained using the CIFAR-10 dataset, where 2000 images were selected for training and 800 for testing, creating 1000 and 400 pairs respectively. The input to the model was the average of these image pairs. The model's performance was evaluated using the Structural Similarity Index (SSIM) as the loss function over 40 epochs.
+
+### Dataset Preparation
+- **Dataset**: CIFAR-10.
+- **Training Images**: 2000 images from the training set to create 1000 pairs.
+- **Testing Images**: 800 images from the test set to create 400 pairs.
+- **Input Generation**: Averaging each pair of images to serve as the model input.
+
+### Model Architecture
+- **Encoder**: Consists of convolutional layers with 'relu' activation, followed by max-pooling.
+- **Decoder**: Includes convolutional layers with 'relu' activation, followed by upsampling, and a final 'sigmoid' activation layer for output.
+
+### Compilation and Training
+- **Optimizers**: Two Adam optimizers for the parallel autoencoder.
+- **Loss Function**: Structural Similarity Index (SSIM) for loss calculation.
+- **Epochs**: 40.
+
+### Performance Evaluation
+- **Loss Metrics**: SSIM-based loss for both training and validation sets.
+- **Visualization**: Loss curves plotted for both outputs and visual comparison of input averages, target, and predicted images.
+    ![image](https://github.com/AliAmini93/Image-Reconstruction-AE/assets/96921261/0eac5577-45b1-4faa-ad15-97a2cd44b486)
+### Additional Notes
+- The model demonstrates the ability to independently reconstruct two images from their average, showcasing the effectiveness of parallel autoencoders in dual image reconstruction tasks.
+  ![image](https://github.com/AliAmini93/Image-Reconstruction-AE/assets/96921261/6be72d23-6822-4b9d-993d-cbc8752fafb6)
+  ![image](https://github.com/AliAmini93/Image-Reconstruction-AE/assets/96921261/db5d8ac0-1a88-4bf9-8c2c-b8a086a7653c)
+  ![image](https://github.com/AliAmini93/Image-Reconstruction-AE/assets/96921261/a0da88ea-fedc-4099-a5f3-bcf03878b4f8)
+  ![image](https://github.com/AliAmini93/Image-Reconstruction-AE/assets/96921261/baea9b47-2cfd-4b6c-b4bb-7ee4feec99e1)
+  ![Uploading image.png…]()
+  
+
+
+
+
+
+
