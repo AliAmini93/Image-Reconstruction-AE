@@ -35,14 +35,14 @@ A four-layer autoencoder was developed for the TinyImageNet dataset to process 6
 
 ### Performance Evaluation
 - **Loss Visualization**: Plots of training and validation loss.
-    ![image](https://github.com/AliAmini93/Image-Reconstruction-AE/assets/96921261/8e748cae-cc9c-4bfa-a9eb-df369d8f13b0)
+![image](https://github.com/AliAmini93/Image-Reconstruction-AE/assets/96921261/8e748cae-cc9c-4bfa-a9eb-df369d8f13b0)
 
 - **Reconstruction Quality**: Visual comparison of original vs. reconstructed images from the test set.
    ![image](https://github.com/AliAmini93/Image-Reconstruction-AE/assets/96921261/4959095f-1066-4b20-8465-7cc3b1e23cb0)
 
 ## Task 2: CIFAR-10 Image Pair Reconstruction from Averages Using Parallel Autoencoders
 ### Description
-This task involves the unique challenge of reconstructing two distinct images from their average. A parallel autoencoder architecture was implemented to independently train for each output image. The model was trained using the CIFAR-10 dataset, where 2000 images were selected for training and 800 for testing, creating 1000 and 400 pairs respectively. The input to the model was the average of these image pairs. The model's performance was evaluated using the Structural Similarity Index (SSIM) as the loss function over 40 epochs.
+This task (Task_2.ipynb) involves the unique challenge of reconstructing two distinct images from their average. A parallel autoencoder architecture was implemented to independently train for each output image. The model was trained using the CIFAR-10 dataset, where 2000 images were selected for training and 800 for testing, creating 1000 and 400 pairs respectively. The input to the model was the average of these image pairs. The model's performance was evaluated using the Structural Similarity Index (SSIM) as the loss function over 40 epochs.
 
 ### Dataset Preparation
 - **Dataset**: CIFAR-10.
